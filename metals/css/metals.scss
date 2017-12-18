@@ -802,6 +802,281 @@ textarea {
         }        
     }
 }
+.ProductDetails{
+    width: 1200px;
+    margin:30px auto;
+    .ProductDetails_left{
+        width: 260px;
+        .module5_left{
+            width: 260px;
+            background: #1781f8;
+            padding: 20px 6px 10px;
+            margin-bottom: 10px;
+            h4{
+                text-align: center;
+                position: relative;
+                color: #fff;
+                font-size: 20px;
+                line-height: 40px;
+                margin-bottom: 22px;
+                >span{
+                    position: absolute;
+                    height: 40px;
+                    line-height: 40px;
+                    color: rgba(255,255,255,0.1);
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 26px;
+                    
+                }
+            }
+            ul{
+                width: 100%;
+                border-radius: 5px;
+
+                background: #fff;
+                padding: 20px 12px;
+                li{
+                    width: 100%;
+                    height: 40px;
+                    line-height: 40px;
+                    margin-bottom: 12px;
+                    background: #ededed;
+                    padding: 0 22px;
+                    position: relative;
+                    span{
+                        width: 20px;
+                        height: 14px;
+                        background: url(../img/images/jian1.png) no-repeat;
+                        background-size: 100% 100%;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        right: 20px;
+                    }
+                }
+                li:hover{
+                    background: #1781f8;
+                    color: #fff;
+                    span{
+                        background: url(../img/images/jian2.jpg);
+                    }
+                }
+            }
+            ol{
+                width: 100%;
+                border-radius: 5px;
+
+                background: #fff;
+                padding: 20px 12px;
+                text-align: center;
+                img{
+                    border: 1px solid #CDCDCD;
+                }
+                p{
+                    margin: 20px 0;
+                    color: #555;
+                }
+            }
+        }
+    }
+    .ProductDetails_right{
+        width: 912px;
+        .paging{
+                text-align: center;
+                margin: 30px 0;
+                a{
+                    display: inline-block;
+                    padding: 13px 18px;
+                    background: #eeeded;
+                    color: #777;
+                }
+                a:hover{
+                    background: #1581f6;
+                    color: #fff;
+                }
+            }
+        >h2{
+            border-bottom: 1px solid #d2d2d2;
+            color: #1880f8;
+            font-weight: bold;
+            font-size: 14px;
+            i{
+            padding: 0px 2px;
+            background: red;
+            margin-right: 10px;
+        }
+        a{
+            font-size: 12px;
+            height: 30px;
+            line-height: 30px;
+            color: #777;
+        }
+        }
+        
+        >dl{
+            margin-top: 20px;
+            dt{
+                text-align: center;
+                margin-bottom: 24px;
+                h4{
+                    color: #1880f8;
+                    font-weight: bold;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    color: #777;
+                }
+            }
+            dd{
+                img{padding-left: 12px;}
+                p{
+                    line-height: 30px;
+                    color: #777;
+                    padding: 12px 0;
+                    border-bottom: 1px solid #CDCDCD;
+                }
+            }
+        }
+        >ul{
+            padding: 12px 0;
+            border-bottom: 1px solid #CDCDCD;
+            li{
+                margin-bottom: 10px;
+                color: #777;
+                a{
+                    color: #1480f5;
+                }
+                
+            }
+        }
+        >.ProductDetails_botton{
+            padding-top: 20px;
+            >h4{
+                background: #1680F7;
+                padding: 5px;
+                color: #fff;
+                line-height: 30px;
+                font-weight: normal;
+                a{
+                    display: inline-block;
+                    width: 93px;
+                    height: 30px;
+                    text-align: center;
+                    line-height: 30px;
+                    border-radius: 5px;
+                    background: #fff;
+                    color: #777;
+                }
+            }
+            >ul{
+                padding: 20px;
+                border-bottom: 1px dashed #CDCDCD;
+                >li{
+                    float: left;
+                }
+                .one{
+                    width: 70px;
+                    text-align: center;
+                    font-weight: bold;
+                    >span{
+                        display: block;
+                        font-size: 40px;
+
+                    }
+                }
+                .tow{
+                    width: 600px;
+                    padding-left: 30px;
+                    h5{
+                        margin-bottom: 10px;
+                        font-size: 16px;
+                        padding-top: 7px;
+                        a{
+                            color: #555;
+                        }
+                        a:hover{
+                            color: #0770ea;
+                        }
+                    }
+                    p{color: #777;}
+                }
+                .last{
+                    float: right;
+                   line-height: 76px;
+                    a{
+                        display: inline-block;
+                        width: 100px;
+                        height: 40px;
+                        border: 1px solid #0770ea;
+                        text-align: center;
+                        line-height: 40px;
+                        color: #0770ea;
+                    }
+                    a:hover{
+                        color: #fff;
+                        background:#0770ea;
+                    }
+                }
+            }
+        }
+        .ProductCenter{
+            .ProductCenter_list{
+                >ul{
+                     margin-top: 20px;
+                     li{
+                           text-align: center;
+                           margin-right: 35px;
+                           img{
+                               border: 1px solid #d2d2d2;
+                           }
+                           p{
+                               margin: 20px 0;
+                           }
+                      }
+                      li:nth-child(4), li:nth-child(8){margin: 0;}
+                      li:nth-child(8), li:nth-child(8){margin: 0;}
+                      li:nth-child(12), li:nth-child(8){margin: 0;}
+                      li:nth-child(16), li:nth-child(8){margin: 0;}
+                      li:nth-child(20), li:nth-child(8){margin: 0;}
+                      li:hover{
+                      img{border: 1px solid #4b95f3;}
+                      p{
+                           color:#4b95f3 ;
+                       }
+                   }
+                }
+            }
+            
+            .paging{
+                text-align: center;
+                margin: 30px 0;
+                a{
+                    display: inline-block;
+                    padding: 13px 18px;
+                    background: #eeeded;
+                    color: #777;
+                }
+                a:hover{
+                    background: #1581f6;
+                    color: #fff;
+                }
+            }
+        }
+        .AboutUs{
+            p{
+                text-indent: 1em;
+                line-height: 30px;
+                margin-bottom: 12px;
+            }
+        }
+        
+    }
+}
 .foot{
     width: 100%;
     margin:auto;
@@ -843,4 +1118,6 @@ textarea {
 @media(max-width:1200px){
    .head{width: 1200px;} 
    .main{width: 1200px;}
+   .foot{width: 1200px;}
+   .footer{width: 1200px;}
 }

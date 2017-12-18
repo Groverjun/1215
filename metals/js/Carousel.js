@@ -37,13 +37,7 @@ $(function(){
 	}, function() {
 		time = setInterval(mov, 1000)
 	})
-	$(".head_banner").hover(function() {
-		clearInterval(time)
-	}, function() {
-		time = setInterval(mov, 1000)
-	})
-	/****/
-
+	
 })
 
-	/**/
+	
